@@ -1,6 +1,6 @@
 $(function() {
 
-  $("button").click(function(){
+  $(".button").click(function(){
     $('header').toggleClass("header_show")
   });
 

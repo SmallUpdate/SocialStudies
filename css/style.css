@@ -28,7 +28,7 @@ header {
     transform: translateY(0);
 }
 
-button {
+.button {
     font-size: 20px;
     width: 128px;
     height: 128px;
@@ -40,7 +40,7 @@ button {
     color: black;
 }
 
-button:hover {
+.button:hover {
     text-decoration: underline rgb(112, 193, 255) 2px;
     color: rgb(112, 193, 255);
 }
@@ -148,7 +148,7 @@ hr {
     border: none;
 }
 
-footer {
+.footer {
     width: 100%;
     background-color: rgb(112, 193, 255);
 }
