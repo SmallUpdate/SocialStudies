@@ -17,7 +17,7 @@ header {
     width: 100%;
     z-index: 2;
     background-color: rgb(112, 193, 255);
-    transform: translateY(-205px);
+    transform: translateY(-245px);
 }
 
 .header_block {
@@ -47,7 +47,7 @@ header {
 }
 
 nav {
-    height: 200px;
+    height: 240px;
     background-color: rgb(112, 193, 255);
 }
 
@@ -142,6 +142,7 @@ ul {
 
 span {
     font-weight: 600;
+    font-size: 22px;
 }
 
 hr {
@@ -171,6 +172,10 @@ a {
 a:hover {
     text-decoration: underline white;
     color: white;
+}
+
+li::marker {
+    font-weight: 600;
 }
 
 @media screen and (max-width: 720px) {
@@ -220,6 +225,10 @@ a:hover {
 
     ul {
         padding-left: 30px;
+    }
+
+    span {
+        font-size: 20px;
     }
     
 }
@@ -271,5 +280,9 @@ a:hover {
 
     ul {
         padding-left: 20px;
+    }
+
+    span {
+        font-size: 18px;
     }
 }
