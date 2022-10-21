@@ -21,7 +21,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: 9s ChangeColorNormal infinite;
+  animation: 18s ChangeColorNormal infinite;
 }
 
 .header_move {
@@ -37,7 +37,7 @@ header {
   background-color: rgb(120, 200, 255);
   text-decoration: underline black 2px;
   color: black;
-  animation: 9s ChangeColorNormal infinite;
+  animation: 18s ChangeColorNormal infinite;
 }
 
 .menu_button:hover {
@@ -53,7 +53,7 @@ header {
   padding: 0;
   height: 240px;
   background-color: rgb(120, 200, 255);
-  animation: 9s ChangeColorNormal infinite;
+  animation: 18s ChangeColorNormal infinite;
 }
 
 .menu_item {
@@ -67,7 +67,7 @@ main {
   background-color: rgb(200, 220, 255);
   box-shadow: 0 0 100px 0 rgb(100, 100, 200);
   padding: 0 40px;
-  animation: 9s ChangeColorLight infinite;
+  animation: 18s ChangeColorLight infinite;
 }
 
 .part {
@@ -141,7 +141,7 @@ hr {
 .footer {
   width: 100%;
   background-color: rgb(120, 200, 255);
-  animation: 9s ChangeColorNormal infinite;
+  animation: 18s ChangeColorNormal infinite;
 }
 
 .footer_text {
