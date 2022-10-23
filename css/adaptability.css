@@ -1,4 +1,15 @@
+@media (max-width: 1280px) {
+  main {
+    box-shadow: none;
+  }
+}
+
 @media (max-width: 768px) {
+
+  header {
+    border-radius: 0;
+  }
+
   main {
     padding: 0 30px;
   }

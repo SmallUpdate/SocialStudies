@@ -4,6 +4,7 @@
   scroll-behavior: smooth;
   font-family: "Montserrat";
   transition: 0.3s;
+  color: rgb(0, 0, 80);
 }
 
 body {
@@ -14,14 +15,16 @@ body {
 
 header {
   position: fixed;
+  max-width: 768px;
   width: 100%;
   z-index: 2;
-  background-color: rgb(120, 200, 255);
+  background-color: rgb(120, 160, 240);
   transform: translateY(-245px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: 18s ChangeColorNormal infinite;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .header_move {
@@ -34,15 +37,14 @@ header {
   height: 64px;
   border: none;
   cursor: pointer;
-  background-color: rgb(120, 200, 255);
-  text-decoration: underline black 2px;
-  color: black;
-  animation: 18s ChangeColorNormal infinite;
+  background-color: transparent;
+  text-decoration: underline rgb(0, 0, 80) 2px;
+  color: rgb(0, 0, 80);
 }
 
 .menu_button:hover {
-  text-decoration: underline white 2px;
-  color: white;
+  text-decoration: underline rgb(200, 200, 240) 2px;
+  color: rgb(200, 200, 240);
 }
 
 .menu {
@@ -52,8 +54,7 @@ header {
   text-align: center;
   padding: 0;
   height: 240px;
-  background-color: rgb(120, 200, 255);
-  animation: 18s ChangeColorNormal infinite;
+  background-color: rgb(120, 160, 240);
 }
 
 .menu_item {
@@ -64,10 +65,9 @@ header {
 
 main {
   max-width: 1200px;
-  background-color: rgb(200, 220, 255);
+  background-color: rgb(160, 200, 240);
   box-shadow: 0 0 100px 0 rgb(100, 100, 200);
   padding: 0 40px;
-  animation: 18s ChangeColorLight infinite;
 }
 
 .part {
@@ -84,7 +84,7 @@ main {
   font-size: 32px;
   font-weight: 800;
   padding-bottom: 24px;
-  text-decoration: underline rgb(0, 0, 0);
+  text-decoration: underline rgb(0, 0, 80);
 }
 
 .list {
@@ -107,7 +107,7 @@ main {
   padding-bottom: 5px;
   font-size: 24px;
   font-weight: 600;
-  text-decoration: underline rgb(0, 0, 0);
+  text-decoration: underline rgb(0, 0, 80);
 }
 
 li {
@@ -134,14 +134,13 @@ span {
 hr {
   width: 100%;
   height: 5px;
-  background-color: black;
+  background-color: rgb(0, 0, 80);
   border: none;
 }
 
 .footer {
   width: 100%;
-  background-color: rgb(120, 200, 255);
-  animation: 18s ChangeColorNormal infinite;
+  background-color: rgb(120, 160, 240);
 }
 
 .footer_text {
@@ -153,56 +152,16 @@ hr {
 
 .menu_item,
 .footer_link {
-  text-decoration: underline black;
-  color: black;
+  text-decoration: underline rgb(0, 0, 80);
+  color: rgb(0, 0, 80);
 }
 
 .menu_item:hover,
 .footer_link:hover {
-  text-decoration: underline white;
-  color: white;
+  text-decoration: underline rgb(200, 200, 240);
+  color: rgb(200, 200, 240);
 }
 
 li::marker {
   font-weight: 600;
-}
-
-@keyframes ChangeColorLight {
-  0% {
-    background-color: rgb(200, 220, 255);
-    box-shadow: 0 0 100px 0 rgb(100, 100, 200);
-  }
-
-  33% {
-    background-color: rgb(255, 200, 220);
-    box-shadow: 0 0 100px 0 rgb(200, 100, 100);
-  }
-
-  67% {
-    background-color: rgb(220, 255, 200);
-    box-shadow: 0 0 100px 0 rgb(100, 200, 100);
-  }
-
-  100% {
-    background-color: rgb(200, 220, 255);
-    box-shadow: 0 0 100px 0 rgb(100, 100, 200);
-  }
-}
-
-@keyframes ChangeColorNormal {
-  0% {
-    background-color: rgb(120, 200, 255);
-  }
-
-  33% {
-    background-color: rgb(255, 120, 200);
-  }
-
-  67% {
-    background-color: rgb(200, 255, 120);
-  }
-
-  100% {
-    background-color: rgb(120, 200, 255);
-  }
 }
