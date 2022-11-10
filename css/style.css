@@ -31,7 +31,7 @@ header {
   transform: translateY(0);
 }
 
-.menu_ {
+.menu_header {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
