@@ -1,110 +1,68 @@
-@media (max-width: 1280px) {
-  main {
-    box-shadow: none;
-  }
-}
-
 @media (max-width: 768px) {
-
-  header {
-    border-radius: 0;
-  }
-
-  main {
-    padding: 0 30px;
-  }
-
-  .menu_item {
-    font-size: 22px;
-  }
-
-  .footer_text {
-    font-size: 18px;
-    padding: 20px 30px;
-  }
-
-  .chapter {
-    padding-bottom: 36px;
-    font-size: 32px;
-  }
-
-  .title {
-    padding-bottom: 36px;
+  .chapter_1,
+  .chapter_2,
+  .chapter_3,
+  .chapter_4 {
     font-size: 24px;
   }
 
-  .subtitle {
+  .btn_lesson {
     font-size: 20px;
-  }
-
-  .text {
-    font-size: 18px;
   }
 
   .list {
-    padding-bottom: 30px;
+    margin-bottom: 16px;
   }
 
-  .term {
-    padding-bottom: 30px;
+  .text {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .list_title {
+    font-size: 16px;
   }
 
   li {
-    padding: 4px 0;
-    font-size: 18px;
+    font-size: 14px;
   }
 
-  span {
-    font-size: 20px;
+  .footer_text {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 576px) {
-  main {
-    padding: 0 20px;
+
+  .chapter_1,
+  .chapter_2,
+  .chapter_3,
+  .chapter_4 {
+    font-size: 24px;
   }
 
-  .menu_item {
+  .btn_lesson {
     font-size: 20px;
   }
 
-  .footer_text {
-    font-size: 16px;
-    padding: 20px 30px;
-  }
-
-  .chapter {
-    padding-bottom: 48px;
-    font-size: 28px;
-  }
-
-  .title {
-    padding-bottom: 48px;
-    font-size: 22px;
-  }
-
-  .subtitle {
-    font-size: 18px;
+  .list {
+    margin-bottom: 12px;
   }
 
   .text {
-    font-size: 16px;
+    margin-bottom: 12px;
+    font-size: 12px;
   }
 
-  .list {
-    padding-bottom: 40px;
-  }
-
-  .term {
-    padding-bottom: 40px;
+  .list_title {
+    font-size: 14px;
   }
 
   li {
-    padding: 6px 0;
-    font-size: 16px;
+    font-size: 12px;
   }
 
-  span {
-    font-size: 18px;
+  .footer_text {
+    font-size: 12px;
   }
 }

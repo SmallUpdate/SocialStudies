@@ -3,171 +3,158 @@
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Montserrat";
-  transition: 0.3s;
-  color: rgb(0, 0, 80);
+  color: #ffc800;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
   display: flex;
+  background-color: #222;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
 
-header {
-  position: fixed;
-  max-width: 768px;
-  width: 100%;
-  z-index: 2;
-  background-color: rgb(120, 160, 240);
-  transform: translateY(-245px);
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-.header_move {
-  transform: translateY(0);
-}
-
-.menu_header {
-  display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
 }
 
-.menu_button {
-  font-size: 32px;
-  width: 100%;
-  height: 64px;
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-  text-decoration: underline rgb(0, 0, 80) 2px;
-  color: rgb(0, 0, 80);
-}
-
-.menu_button:hover {
-  text-decoration: underline rgb(200, 200, 240) 2px;
-  color: rgb(200, 200, 240);
-}
-
-.menu {
+.content {
+  width: 90%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 0;
-  height: 240px;
-  background-color: rgb(120, 160, 240);
-}
-
-.menu_item {
-  font-weight: 600;
-  font-size: 24px;
+  justify-content: center;
   padding: 10px 0;
 }
 
-main {
-  max-width: 1200px;
-  background-color: rgb(160, 200, 240);
-  box-shadow: 0 0 100px 0 rgb(100, 100, 200);
-  padding: 0 40px;
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  background-color: #222;
+  border: solid 2px #ffc800;
+  color: #ffc800;
 }
 
-.part {
-  padding: 84px 0;
+.btn_active {
+  background-color: rgba(255, 200, 0, 0.2);
 }
 
-.chapter {
-  font-size: 40px;
-  font-weight: 900;
-  padding-bottom: 24px;
+.chapter_1,
+.chapter_2,
+.chapter_3,
+.chapter_4 {
+  font-size: 28px;
+  height: 80px;
+  margin: 10px 0;
+  border-radius: 20px;
 }
 
-.title {
-  font-size: 32px;
-  font-weight: 800;
-  padding-bottom: 24px;
-  text-decoration: underline rgb(0, 0, 80);
+.chapter_1_lessons,
+.chapter_2_lessons,
+.chapter_3_lessons,
+.chapter_4_lessons {
+  width: 100%;
+  display: none;
+  opacity: 0;
+  transition: opacity 1s linear 1s;
 }
 
-.list {
-  padding-bottom: 20px;
+.lessons_show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
 }
 
-.term {
-  padding-bottom: 20px;
-}
-
-.list_last {
-  padding-bottom: 0;
-}
-
-.term_last {
-  padding-bottom: 0;
-}
-
-.subtitle {
-  padding-bottom: 5px;
+.btn_lesson {
+  width: 90%;
   font-size: 24px;
-  font-weight: 600;
-  text-decoration: underline rgb(0, 0, 80);
+  margin: 10px 0;
+  border-radius: 15px;
+  padding: 15px 0;
 }
 
-li {
-  padding: 5px 0;
-  font-size: 20px;
-  font-weight: 400;
+.lesson_active {
+  background-color: rgba(255, 200, 0, 0.2);
 }
 
-.group {
-  padding-left: 32px;
+section {
+  margin-bottom: 20px;
+  display: none;
 }
 
-.text {
-  padding: 5px 0;
-  font-size: 20px;
-  font-weight: 400;
+.section_show {
+  display: block;
 }
 
 span {
-  font-weight: 600;
-  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline #ffc800;
 }
 
-hr {
-  width: 100%;
-  height: 5px;
-  background-color: rgb(0, 0, 80);
-  border: none;
+.list {
+  margin-bottom: 20px;
 }
 
-.footer {
-  width: 100%;
-  background-color: rgb(120, 160, 240);
+.list_title {
+  font-size: 18px;
+  text-decoration: underline #ffc800;
+  font-weight: 800;
 }
 
-.footer_text {
-  padding: 20px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-  font-size: 20px;
+ul {
+  padding-left: 24.4px;
 }
 
-.menu_item,
-.footer_link {
-  text-decoration: underline rgb(0, 0, 80);
-  color: rgb(0, 0, 80);
-}
-
-.menu_item:hover,
-.footer_link:hover {
-  text-decoration: underline rgb(200, 200, 240);
-  color: rgb(200, 200, 240);
+li {
+  list-style: decimal;
+  padding: 4px 0;
 }
 
 li::marker {
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.term {
+  margin-bottom: 20px;
+}
+
+.text {
+  padding: 4px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffc800;;
+}
+
+.footer_text {
+  padding: 20px 0;
+  width: 90%;
+  max-width: 1200px;
+  color: #222;
+}
+
+.copyright {
+  color: #222;
+  font-weight: 700;
+}
+
+.footer_link {
+  color: #222;
 }
