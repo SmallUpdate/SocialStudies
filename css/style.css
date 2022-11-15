@@ -3,7 +3,7 @@
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Montserrat";
-  color: #ffc800;
+  color: #E8A236;
 }
 
 ::-webkit-scrollbar {
@@ -17,7 +17,7 @@ body {
 
 body {
   display: flex;
-  background-color: #222;
+  background-color: #212121;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -43,13 +43,13 @@ button {
   align-items: center;
   width: 100%;
   cursor: pointer;
-  background-color: #222;
-  border: solid 2px #ffc800;
-  color: #ffc800;
+  background-color: #212121;
+  border: solid 2px #E8A236;
+  color: #E8A236;
 }
 
 .btn_active {
-  background-color: rgba(255, 200, 0, 0.2);
+  background-color: rgba(232, 162, 54, 0.2);
 }
 
 .chapter_1,
@@ -88,7 +88,7 @@ button {
 }
 
 .lesson_active {
-  background-color: rgba(255, 200, 0, 0.2);
+  background-color: rgba(232, 162, 54, 0.2);
 }
 
 section {
@@ -102,7 +102,7 @@ section {
 
 span {
   font-weight: 700;
-  text-decoration: underline #ffc800;
+  text-decoration: underline #E8A236;
 }
 
 .list {
@@ -111,7 +111,7 @@ span {
 
 .list_title {
   font-size: 18px;
-  text-decoration: underline #ffc800;
+  text-decoration: underline #E8A236;
   font-weight: 800;
 }
 
@@ -140,21 +140,20 @@ footer {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #ffc800;;
+  background-color: #E8A236;
 }
 
 .footer_text {
   padding: 20px 0;
   width: 90%;
   max-width: 1200px;
-  color: #222;
+  color: #212121;
 }
 
 .copyright {
-  color: #222;
+  color: #212121;
   font-weight: 700;
 }
 
 .footer_link {
-  color: #222;
-}
+  color: #212121}
