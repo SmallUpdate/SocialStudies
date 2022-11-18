@@ -49,6 +49,7 @@ $(function() {
   
   $("#sixth").click(function(){
     $('#sixth').toggleClass("lesson_active")
+    $('#sixth_section').toggleClass("section_show")
   });
 
   $("#seventh").click(function(){
