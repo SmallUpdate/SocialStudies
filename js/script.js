@@ -54,6 +54,7 @@ $(function() {
 
   $("#seventh").click(function(){
     $('#seventh').toggleClass("lesson_active")
+    $('#seventh_section').toggleClass("section_show")
   });
   
   $("#eighth").click(function(){
