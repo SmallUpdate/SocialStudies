@@ -59,10 +59,12 @@ $(function() {
   
   $("#eighth").click(function(){
     $('#eighth').toggleClass("lesson_active")
+    $('#eighth_section').toggleClass("section_show")
   });
   
   $("#ninth").click(function(){
     $('#ninth').toggleClass("lesson_active")
+    $('#ninth_section').toggleClass("section_show")
   });
   
   $("#tenth").click(function(){
