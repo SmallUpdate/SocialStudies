@@ -22,50 +22,60 @@ $(function() {
 });
 
 $(function() {
-  $("#first").click(function(){
-    $('#first').toggleClass("lesson_active")
-    $('#first_section').toggleClass("section_show")
+  $("#first-first").click(function(){
+    $('#first-first').toggleClass("lesson_active")
+    $('#first-first_section').toggleClass("section_show")
   });
   
-  $("#second").click(function(){
-    $('#second').toggleClass("lesson_active")
-    $('#second_section').toggleClass("section_show")
+  $("#first-second").click(function(){
+    $('#first-second').toggleClass("lesson_active")
+    $('#first-second_section').toggleClass("section_show")
   });
 
-  $("#third").click(function(){
-    $('#third').toggleClass("lesson_active")
-    $('#third_section').toggleClass("section_show")
+  $("#first-third").click(function(){
+    $('#first-third').toggleClass("lesson_active")
+    $('#first-third_section').toggleClass("section_show")
   });
   
-  $("#fourth").click(function(){
-    $('#fourth').toggleClass("lesson_active")
-    $('#fourth_section').toggleClass("section_show")
-  });
-  
-  $("#fifth").click(function(){
-    $('#fifth').toggleClass("lesson_active")
-    $('#fifth_section').toggleClass("section_show")
-  });
-  
-  $("#sixth").click(function(){
-    $('#sixth').toggleClass("lesson_active")
-    $('#sixth_section').toggleClass("section_show")
+  $("#first-fourth").click(function(){
+    $('#first-fourth').toggleClass("lesson_active")
+    $('#first-fourth_section').toggleClass("section_show")
   });
 
-  $("#seventh").click(function(){
-    $('#seventh').toggleClass("lesson_active")
-    $('#seventh_section').toggleClass("section_show")
+
+  
+  $("#second-first").click(function(){
+    $('#second-first').toggleClass("lesson_active")
+    $('#second-first_section').toggleClass("section_show")
   });
   
-  $("#eighth").click(function(){
-    $('#eighth').toggleClass("lesson_active")
-    $('#eighth_section').toggleClass("section_show")
+  $("#second-second").click(function(){
+    $('#second-second').toggleClass("lesson_active")
+    $('#second-second_section').toggleClass("section_show")
+  });
+
+  $("#second-third").click(function(){
+    $('#second-third').toggleClass("lesson_active")
+    $('#second-third_section').toggleClass("section_show")
   });
   
-  $("#ninth").click(function(){
-    $('#ninth').toggleClass("lesson_active")
-    $('#ninth_section').toggleClass("section_show")
+  $("#second-fourth").click(function(){
+    $('#second-fourth').toggleClass("lesson_active")
+    $('#second-fourth_section').toggleClass("section_show")
   });
+  
+  $("#second-fifth").click(function(){
+    $('#second-fifth').toggleClass("lesson_active")
+    $('#second-fifth_section').toggleClass("section_show")
+  });
+  
+  $("#second-sixth").click(function(){
+    $('#second-sixth').toggleClass("lesson_active")
+    $('#second-sixth_section').toggleClass("section_show")
+  });
+
+
+
   
   $("#tenth").click(function(){
     $('#tenth').toggleClass("lesson_active")
