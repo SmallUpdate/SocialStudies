@@ -75,10 +75,10 @@ $(function() {
   });
 
 
-
   
-  $("#tenth").click(function(){
-    $('#tenth').toggleClass("lesson_active")
+  $("#third-first").click(function(){
+    $('#third-first').toggleClass("lesson_active")
+    $('#third-first_section').toggleClass("section_show")
   });
 
   $("#eleventh").click(function(){

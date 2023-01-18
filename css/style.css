@@ -100,6 +100,13 @@ section {
   display: block;
 }
 
+.chapter {
+  font-weight: 800;
+  font-size: 28px;
+  text-decoration: underline #E8A236;
+  padding: 20px 0;
+}
+
 span {
   font-weight: 700;
   text-decoration: underline #E8A236;
